@@ -3,24 +3,105 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Michael DeLally • Web & Game Developer • Multimedia Artist</title>
+	<title>Michael DeLally • Web & Game Developer • Multimedia Artist & Writer</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
 </head>
 <body>
 	
-	<section class="hero is-dark is-bold is-fullheight">
+	<section class="hero is-dark is-bold is-fullheight animated fadeIn" id="top">
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<center>
+				<center class="animated bounceInDown">
 					<img src="img/md.jpg" alt="Photo of Michael DeLally" class="avatar circle" />
 				</center>
-				<h1 class="title is-1">Michael DeLally</h1>
-				<h2 class="subtitle is-2">Web & Game Developer • Multimedia Artist • Writer</h2>
+				<h1 class="title is-1 animated bounceInLeft delay-1s">Michael DeLally</h1>
+				<h2 class="subtitle is-2 animated bounceInRight delay-1s">Web & Game Developer • Multimedia Artist & Writer</h2>
+				<hr class="animated zoomIn delay-1s" />
+				<h3 class="title is-2 animated bounceInUp delay-2s">
+					<a href="https://github.com/mdelally" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+					<a href="https://instagram.com/thoughtreactor" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+					<a href="https://twitter.com/thghtreactr" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+					<a href="https://github.com/mdelally" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+					<a href="https://medium.com/@mdelally" target="_blank"><i class="fa fa-fw fa-medium"></i></a>
+				</h3>
+			</div>
+		</div>
+
+		<div class="hero-footer">
+			<div class="container has-text-centered animated zoomInUp delay-2s">
+				<a href="#gamedev"><i class="fa fa-fw fa-lg fa-3x fa-chevron-down" id="scrollDown"></i></a>
+			</div>
+		</div>
+	</section>
+	
+	<section class="hero is-danger is-bold is-fullheight animated" id="gamedev">
+		<div class="hero-head">
+			<div class="container has-text-centered">
+				<a href="#top"><i class="fa fa-fw fa-lg fa-3x fa-chevron-up" id="scrollUp"></i></a>
+			</div>
+		</div>
+
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h2 class="title is-2"><strong>GAME DEVELOPER.</strong></h2>
+				<h4 class="subtitle is-4">Creating virutal worlds is and has been my passion since I was 9 years old. Ever since I could first think of gameplay concepts and stories, I've been trying to turn them into games. Over the course of my adult life I've participated in game jams and am working to publish indie games through <a href="https://thought-reactor.net" target="_blank">Thought Reactor</a>, my multimedia studio.</h4>
+				<hr />
+				<div class="columns animated">
+					<div class="column is-one-fourth project">
+						<center>
+							<a href="https://astro-punk.com" target="_blank"><img src="img/astropunk.jpg" alt="" class="project-img circle"></a>
+							<h4 class="title is-4">
+								ASTROPUNK <span class="tag is-dark"><i class="fa fa-fw fa-windows"></i><i class="fa fa-fw fa-apple"></i><i class="fa fa-fw fa-linux"></i><i class="fa fa-fw fa-gamepad"></i></span>
+							</h4>
+							<p>Currently in development, <em>ASTROPUNK</em> is a story-driven 2.5D rougelite shoot-em-up coming to PC and consoles late 2018. Follow development and watch the game grow!</p>
+						</center>
+					</div>
+
+					<div class="column is-one-fourth project">
+						<center>
+							<a href="https://thoughtreactor.itch.io/igeo" target="_blank"><img src="img/igeo.jpg" alt="" class="project-img circle"></a>
+							<h4 class="title is-4">
+								IGEO <span class="tag is-dark"><i class="fa fa-fw fa-windows"></i><i class="fa fa-fw fa-apple"></i><i class="fa fa-fw fa-linux"></i></span>
+							</h4>
+							<p>A small puzzle game where you eliminate blocks from the board by moving them together. First <em>commercial</em> release. Originally built in under 24 hours for Ludum Dare 35.</p>
+						</center>
+					</div>
+
+					<div class="column is-one-fourth project">
+						<center>
+							<a href="https://thoughtreactor.itch.io/igeo" target="_blank"><img src="img/lightdrifter.jpg" alt="" class="project-img circle"></a>
+							<h4 class="title is-4">
+								Light Drifter 34 <span class="tag is-dark"><i class="fa fa-fw fa-globe"></i></span>
+							</h4>
+							<p>2D driving puzzle game where the player must steer through dangerous courses in an attempt to rack up as many points as possible without dying. Built entirely within 48 hours for Ludum Dare 34.</p>
+						</center>
+					</div>
+
+					<div class="column is-one-fourth project">
+						<center>
+							<a href="https://thoughtreactor.itch.io/pie-quest" target="_blank"><img src="img/piequest.jpg" alt="" class="project-img circle"></a>
+							<h4 class="title is-4">
+								Pie Quest <span class="tag is-dark"><i class="fa fa-fw fa-globe"></i></span>
+							</h4>
+							<p>Top-down shooting game featuring boss battles and dangerous obstacles over 15 levels. Built entirely within 72 hours for Ludum Dare 37.</p>
+						</center>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-footer">
+			<div class="container has-text-centered">
+				<a href="#gamedev"><i class="fa fa-fw fa-lg fa-3x fa-chevron-down" id="scrollDown"></i></a>
 			</div>
 		</div>
 	</section>
 
-	<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

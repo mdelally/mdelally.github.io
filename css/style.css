@@ -1,3 +1,21 @@
+body {
+	background-color: black;
+}
+
+a {
+	opacity: 0.6;
+	transition: opacity 0.2s;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+hr {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
 .avatar {
 	max-width: 200px;
 	height: auto;
@@ -5,4 +23,50 @@
 
 .circle {
 	border-radius: 50%;
+}
+
+#scrollDown {
+	margin-bottom: 1em;
+	transition: top 0.2s;
+	position: relative;
+	top: 0;
+}
+
+#scrollDown:hover {
+	top: 3px;
+}
+
+#scrollUp {
+	margin-top: 1em;
+	transition: top 0.2s;
+	position: relative;
+	top: 0;
+}
+
+#scrollUp:hover {
+	top: -3px;
+}
+
+.delay-1s {
+	animation-delay: 1s;
+}
+
+.delay-2s {
+	animation-delay: 2s;
+}
+
+.project {
+	position: relative;
+	transition: top .2s;
+	top: 0;
+}
+
+.project:hover {
+	top: -6px;
+}
+
+.project-img {
+	max-width: 200px;
+	height: auto;
+	margin-bottom: 1em;
 }
