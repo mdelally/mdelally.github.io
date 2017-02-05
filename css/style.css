@@ -36,6 +36,10 @@ hr {
 	top: 3px;
 }
 
+#toTop {
+	margin-bottom: 1em;
+}
+
 #scrollUp {
 	margin-top: 1em;
 	transition: top 0.2s;
@@ -69,4 +73,9 @@ hr {
 	max-width: 200px;
 	height: auto;
 	margin-bottom: 1em;
+}
+
+.fa.fa-text {
+	position: relative;
+	top: 3px;
 }
